@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Kiểm tra đăng ký khách hàng</title>
+</head>
+    <body>
+
+        <h2>Form đăng ký khách hàng</h2>
+
+        <form id="formDangKy">
+            <label>Họ và tên:</label><br>
+            <input type="text" id="hoTen"><br><br>
+
+            <label>Email:</label><br>
+            <input type="text" id="email"><br><br>
+
+            <label>Mật khẩu:</label><br>
+            <input type="password" id="matKhau"><br><br>
+
+            <button type="button" onclick="kiemTraDangKy()">Đăng ký</button>
+        </form>
+
+        <p id="ketQua"></p>
+
+        <script>
+            function kiemTraDangKy() {
+            const hoTen = document.getElementById("hoTen").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const matKhau = document.getElementById("matKhau").value.trim();
+            const ketQua = document.getElementById("ketQua");
+
+            if (hoTen === "" || email === "" || matKhau === "") {
+                ketQua.innerText = " Vui lòng nhập đầy đủ thông tin!";
+                return;
+            }
+
+            // Kiểm tra email hợp lệ (chứa @)
+            if (!email.includes("@")) {
+                ketQua.innerText = " Email không hợp lệ!";
+                return;
+            }
+
+            // Kiểm tra độ dài mật khẩu
+            if (matKhau.length < 6) {
+                ketQua.innerText = " Mật khẩu phải ít nhất 6 ký tự!";
+                return;
+            }
+
+            ketQua.innerText = " Đăng ký thành công!";
+            }
+        </script>
+
+    </body>
+</html>
