@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bài thực hành 1</title>
+</head>
+<body style="background-color: black;">
+    <section>
+        <h1> bật tắt màn hình</h1>
+        <button>On</button>
+    </section>
+    <!-- nhúng thư viện jquery -->
+     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script></script>
+     <script>
+        $(document).ready(function(){
+            flag = false
+            $('button').click(function(){
+                if(flag==false){
+                    $('body').css({
+                        'background':'#fff'
+                    })
+                    flag=true
+                    $(this).text('tắt')
+                    $(h1).css('color','#000')
+                }
+                else{
+                     $('body').css({
+                        'background':'#000'
+                    })
+                    flag=true
+                    $(this).text('bật')
+                    $(h1).css('color','#fff')
+                }
+            })
+        })
+     </script>
+</body>
+</html>

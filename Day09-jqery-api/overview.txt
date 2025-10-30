@@ -1,0 +1,14 @@
+làm việc với thư viện jquery
+1. nhúng jquery vào html (phần head hoặc trước thẻ đóng body)
+    -tải về từ trang chủ : jquery.com,..
+    -nhúng trực tiếp từ cloud
+2. cú pháp
+    $(selector).action({
+        statement;
+    })
+    
+    *selector:
+        -tên thẻ html: h1,p,div...
+        -tên class: test; .box
+        -tên id: #test ;...
+        -giá trị 
