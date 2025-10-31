@@ -1,0 +1,62 @@
+{
+  "phongkhach": [
+    {
+      "ten": "combo phòng khách",
+      "gia_goc": "9,000,000",
+      "gia_km": "8,590,000",
+      "anh": "images/01.jpg"
+    },
+    {
+      "ten": "combo tủ bếp",
+      "gia_goc": "5,300,000",
+      "gia_km": "4,560,000",
+      "anh": "images/02.jpg"
+    },
+    {
+      "ten": "ghế sofa",
+      "gia_goc": "6,000,000",
+      "gia_km": "4,990,000",
+      "anh": "images/10.jpg"
+    },
+    {
+      "ten": "Giường châu Âu",
+      "gia_goc": "10,000,000",
+      "gia_km": "8,400,000",
+      "anh": "images/04.jpg"
+    }
+  ],
+  "phongbep": [
+    {
+      "ten": "Bàn ăn",
+      "gia_goc": "12,000,000",
+      "gia_km": "10,550,000",
+      "anh": "images/05.jpg"
+    },
+    {
+      "ten": "Bàn trà",
+      "gia_goc": "4,000,000",
+      "gia_km": "3,600,000",
+      "anh": "images/06.jpg"
+    }
+  ],
+  "phongngu": [
+    {
+      "ten": "góc làm việc trong phòng ngủ",
+      "gia_goc": "4,000,000",
+      "gia_km": "3,600,000",
+      "anh": "images/07.jpg"
+    },
+    {
+      "ten": "cầu thang thiết kế quý tộc",
+      "gia_goc": "14,000,000",
+      "gia_km": "11,200,000",
+      "anh": "images/08.jpg"
+    },
+    {
+      "ten": "combo phòng khách 2",
+      "gia_goc": "12,000,000",
+      "gia_km": "8,999,000",
+      "anh": "images/09.jpg"
+    }
+  ]
+}
